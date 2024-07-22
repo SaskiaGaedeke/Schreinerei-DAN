@@ -1,0 +1,66 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.Menü{
+    position:-webkit-sticky; 
+    position:sticky; top:0;
+    background-image: url("Bilder/pexels-fwstudio-33348-139309.jpg");
+    opacity: 90%;
+    padding: 1em 3em 0.5em 3em;
+    border-radius: 9px;}
+
+.Menü ul li{
+    display: inline;
+    justify-content:space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.Menü img{
+    max-block-size: 50px;
+}
+
+.zusammen{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Geschäftszeiten{
+    margin: 2em 15.6em 3em 0em;
+}
+
+.Anfahrt{
+    margin: 2em 9em 3em 0em;
+}
+
+.Anfahrt img{
+    max-block-size: 300px;
+}
+
+.inhalt{
+    margin: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: larger;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+.produkttabelle a{
+    color: rgb(109, 66, 66);
+}
+
+img{
+    max-block-size: 500px;
+    padding: 1px
+}
